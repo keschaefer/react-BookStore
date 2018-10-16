@@ -78,7 +78,7 @@ class App extends Component {
             <div className='shoppingItems'>
               <CartItem shopping={this.state.shopping} />
             </div>
-            <h2>Total:{this.state.total} </h2>
+            <h2>Total: ${this.state.total} </h2>
           </div>
           <button className="btn" onClick={this.clear}>Clear</button>
         </div>
